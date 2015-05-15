@@ -1,0 +1,55 @@
+#story-cover-override {
+	height: 65vh;
+	max-height: 65vh;
+}
+
+p {
+	font-size: 0.875em;
+}
+
+.row.header {
+	text-align: center;
+}
+
+article {
+	padding-top: 0;
+}
+
+p.lead {
+	font-size: 1em;
+}
+
+p.dek {
+	text-align: center;
+}
+
+div.data-viz {
+	padding: 3em 0em;
+}
+
+article p.break {
+	margin-top: 3em;
+}
+
+article p.break em {
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1em;
+}
+
+blockquote {
+	position: relative;
+	border-bottom-color: #aa0707;
+	border-bottom-width: .75em;
+	border-bottom-style: solid;
+	line-height: 1.25;
+	padding-bottom: .5em;
+}
+
+blockquote p {
+}
+
+blockquote p:before,
+blockquote p:after {
+	content: '';
+}
