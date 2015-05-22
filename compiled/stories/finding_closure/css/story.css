@@ -68,3 +68,11 @@ hr {
 	border-width: 3px;
 	width: 30%;
 }
+
+.full-width-new {
+	margin: 1em 0;
+}
+
+img {
+	opacity: 1 !important;
+}
