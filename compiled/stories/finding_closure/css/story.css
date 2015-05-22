@@ -22,6 +22,10 @@ header.in-article #navbar-product.no-cover #navbar-title {
 
 h1 {
 	color: #aa0707;
+	font-size: 65px;
+	line-height: 66px;
+	font-weight: 900;
+	margin-bottom: 5px;
 }
 
 p {
@@ -36,8 +40,11 @@ article {
 	padding-top:125px;
 }
 
-p.lead {
+p.dek.lead {
 	/*font-size: 1em;*/
+    font-weight: 300;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
 }
 
 p.dek {
