@@ -1,6 +1,14 @@
 #story-cover-override {
-	height: 65vh;
-	max-height: 65vh;
+	height: 60vh;
+}
+
+.story-cover-image {
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	color: #aa0707;
 }
 
 p {
