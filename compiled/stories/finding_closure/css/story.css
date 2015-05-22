@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-	font-size: 0.875em;
+	/*font-size: 0.875em;*/
 }
 
 .row.header {
@@ -24,7 +24,7 @@ article {
 }
 
 p.lead {
-	font-size: 1em;
+	/*font-size: 1em;*/
 }
 
 p.dek {
