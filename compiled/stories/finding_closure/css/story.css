@@ -1,3 +1,16 @@
+header.navigation #navbar-product #stories-btn {
+	color: #666;
+}
+header.navigation #navbar-product.no-cover li a {
+	color: #666;
+	text-shadow: none;
+}
+.navbar.navbar-default a.navbar-brand img {
+	display:none;
+}
+header.in-article #navbar-product.no-cover #navbar-title {
+  display: block;
+}
 #story-cover-override {
 	height: 60vh;
 }
@@ -20,7 +33,7 @@ p {
 }
 
 article {
-	padding-top: 0;
+	padding-top:125px;
 }
 
 p.lead {
