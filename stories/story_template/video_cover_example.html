@@ -23,7 +23,7 @@
     <meta property="og:title" content="The Flux"/>
     <meta property="og:description" content="Stories On Transition"/>
     <meta property="og:image" content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg"/>
-    <title>Profile Navigation Example</title>
+    <title>Video Cover Example</title>
     <!-- CSS-->
     <link rel="stylesheet" href="../../css/theflux.css?v10"/>
     <link rel="stylesheet" href="css/story.css"/>
@@ -175,7 +175,9 @@
     <!-- END NAVBAR-->
     <!-- STORY COVER-->
     <section id="story-cover" class="story-cover">
-      <div style="background-image: url('img/example.jpg');" class="story-cover-image"></div>
+      <div class="story-cover-image">
+        <video id="video-cover" autoplay="autoplay" loop="loop" data-pattern="../../video/video_example_loopable_{{size}}.mp4" data-widths="[600, 900]" class="lazy-video"></video>
+      </div>
       <div class="story-cover-arrow"></div>
       <div class="story-cover-content">
         <h1>Awesome Story Title Goes Here</h1>
