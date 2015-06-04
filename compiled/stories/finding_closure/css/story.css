@@ -111,3 +111,11 @@ img {
 .byline {
 	font-size: 1em;
 }
+
+.pqleft {
+	text-align: right;
+}
+
+.pqright {
+	text-align: left;
+}
