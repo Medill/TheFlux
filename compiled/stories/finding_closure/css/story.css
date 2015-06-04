@@ -107,3 +107,7 @@ img {
     animation-play-state:running;
     margin-top: -3.25em;
 }
+
+.byline {
+	font-size: 1em;
+}
