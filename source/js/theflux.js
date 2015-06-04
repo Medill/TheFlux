@@ -78,7 +78,7 @@ $(document).ready(function(){
 		
 		$( "figure" ).each(function(figure) {
 			
-			if ($(this).find( "a img" ).length ) {
+			if ($(this).find( "a img" ).length || $(this).hasClass( "no-zoom" )) {
 				
 			} else {
 				var img_url,
