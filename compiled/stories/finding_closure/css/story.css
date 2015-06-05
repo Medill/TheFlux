@@ -5,8 +5,11 @@ header.navigation #navbar-product.no-cover li a {
 	color: #666;
 	text-shadow: none;
 }
-.navbar.navbar-default a.navbar-brand img {
-	display:none;
+.navbar.navbar-default a.navbar-brand img.logo-white {
+	display:none !important;
+}
+.navbar.navbar-default a.navbar-brand img.logo-black {
+	display:inline !important;
 }
 header.in-article #navbar-product.no-cover #navbar-title {
   display: block;
