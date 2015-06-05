@@ -119,6 +119,31 @@ img {
 	text-align: right;
 }
 
+.pqleft p {
+	float: right;
+}
+.pqleft p:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
 .pqright {
 	text-align: left;
 }
+
+article > section .row:first-of-type p:first-of-type:first-letter {
+	float: left;
+	color: #aa0707;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+	font-weight: 900;
+	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+
