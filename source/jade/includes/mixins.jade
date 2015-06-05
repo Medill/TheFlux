@@ -67,7 +67,9 @@ mixin navbar(story)
 							a.navbar-brand(href="#{path}/index.html")
 								span The 
 								div#flux-logo-container
-									include logo_letters.svg 
+									//include logo_letters.svg
+									img.logo-white(src="#{path}img/flux_logo_white.png")
+									img.logo-black(src="#{path}img/flux_logo_black.png", style="display:none;")
 						li
 							a#stories-btn(href="#")
 								span.icon-stack(style="margin-right:5px;")

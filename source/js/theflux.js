@@ -269,8 +269,10 @@ $(document).ready(function(){
 			if (in_article) {
 				$('#product-navbar-collapse').css('opacity', '1');
 				
-				$('.navbar-brand img').css('width', '32px');
-				$('.navbar-brand img').css('height', '32px');
+				//$('.navbar-brand img').css('width', '32px');
+				//$('.navbar-brand img').css('height', '32px');
+				$('.logo-white').css('display', 'none');
+				$('.logo-black').css('display', 'inline');
 				
 				$('#navbar-product').addClass('in-article');
 				$('#navbar-product').css('marginTop', '-56px');
@@ -286,6 +288,8 @@ $(document).ready(function(){
 				}
 				//$('img.knightlab-logo').attr('src', '../css/kngihtlab-logo-NOtagline.png');
 				//$('.knightlab-logo img').attr('src', '../css/knightlab-logo-diamond-190.png');
+				$('.logo-white').css('display', 'inline');
+				$('.logo-black').css('display', 'none');
 				
 				$('.navbar-brand img').css('width', '');
 				$('.navbar-brand img').css('height', '');
