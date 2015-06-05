@@ -615,6 +615,11 @@ $(document).ready(function(){
 		logoTimerX = {};
 	
 	function initLogo() {
+		/*
+		logoF = new SVGMorpheus('#fluxLogo');
+		logoTimerF = setTimeout(morphLogo, 1000);
+		*/
+		
 		logoF = new SVGMorpheus('#fluxLogoF');
 		logoL = new SVGMorpheus('#fluxLogoL');
 		logoU = new SVGMorpheus('#fluxLogoU');
@@ -623,6 +628,22 @@ $(document).ready(function(){
 		logoTimerL = setTimeout(morphLogoL, 1000);
 		logoTimerU = setTimeout(morphLogoU, 1000);
 		logoTimerX = setTimeout(morphLogoX, 1000);
+		
+	}
+	function morphLogo() {
+		var logo_id = "1";
+		var randomTimeout = randomBetween(minTime, maxTime);
+		if (logo_second) {
+			logo_second = false;
+			logo_id = "2";
+		} else {
+			logo_second = true;
+		}
+		
+		logoF.to("logo"+logo_id, {duration: logoDuration, easing: "quad-in-out", rotation:"none"}, function(){
+			clearTimeout(logoTimerF);
+			logoTimerF = setTimeout(morphLogo, randomTimeout);
+		});
 	}
 	
 	function morphLogoF() {
