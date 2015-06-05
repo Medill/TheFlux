@@ -80,6 +80,7 @@ $(document).ready(function(){
 			
 			if ($(this).find( "a img" ).length || $(this).hasClass( "no-zoom" )) {
 				
+				$(this).find( "a img" ).css( "opacity", "1" );
 			} else {
 				var img_url,
 					el_link = createEl("a", "enlarge"),

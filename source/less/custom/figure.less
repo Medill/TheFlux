@@ -33,10 +33,28 @@ figure {
 			opacity:0;
 		}
 		&.ll-loaded {
-			//opacity:1;
+			opacity:1;
 		}
 	}
 	
+	
+	
+}
+
+.lazyload {
+	figure.no-zoom {
+		img {
+			img {
+				opacity:1;
+				&.ll-notloaded {
+					opacity:1;
+				}
+				&.ll-loaded {
+					opacity:1;
+				}
+			}
+		}
+	}
 }
 
 .full-width {
