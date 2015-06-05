@@ -118,19 +118,6 @@ img {
 .pqleft {
 	text-align: right;
 }
-
-.pqleft p {
-	float: right;
-}
-.pqleft p:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-}
-
 .pqright {
 	text-align: left;
 }
