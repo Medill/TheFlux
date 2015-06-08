@@ -308,6 +308,17 @@ $(document).ready(function(){
 		
 	}
 	
+	/*	PULL BREAKS
+	================================================== */
+	/*
+	$( ".pull-break" ).each(function( index ) {
+		var pull_width = $( this ).attr("data-width");
+		pull_width = window.innerWidth/100 * pull_width;
+		trace(pull_width);
+		$( this ).css( "width", pull_width );
+	});
+	*/
+	
 	/*	STORY NAV BAR
 	================================================== */
 	function loadStoryBarStories(json_url, storybar_id) {
