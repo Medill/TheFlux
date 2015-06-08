@@ -39,18 +39,150 @@ p {
 
 }
 
-#deckquote{
+#deckquote {
+
+text-align: center;
+
+}
+
+#deckquote p {
 
 	text-align: center;
 	width: 100%;
 	margin-bottom: 25px;
 	font-style: italic;
 	color: #3CB371  ;
-	font-size: 30px;
+	font-size: 45px;
+	line-height: 120%;
 }
 
+#profilequote blockquote {
+	margin-top: 30px;
+	width: 100%;
+	text-align: right;
+	font-style: italic;
+	margin-bottom: 25px;
+	color: #3CB371  ;
+	font-size: 20px;
+	line-height: 120%;
 
+}
 
+#profilequote p {
+	margin-top: 30px;
+	width: 100%;
+	text-align: right;
+	font-style: italic;
+	margin-bottom: 25px;
+	color: #3CB371  ;
+	font-size: 30px;
+	line-height: 120%;
+
+ }
+
+ #profilefact p {
+	margin-top: 30px;
+	width: 100%;
+	text-align: right;
+	font-style: italic;
+	margin-bottom: 25px;
+	color: #3CB371  ;
+	font-size: 30px;
+	line-height: 120%;
+}
+
+ #profilefact img {
+
+ 	opacity: 1;
+	text-align: right;
+	width: 200%;
+	margin-bottom: 25px;
+
+ }
 
 
 .stop { width: 1000}
+
+
+/*!
+	Profile Nav
+*/
+.profile-nav a.profile-button {
+  height: 250px;
+}
+.profile-nav a.profile-button .profile-button-background {
+  height: 250px;
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  opacity: 1;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.profile-nav a.profile-button h2,
+.profile-nav a.profile-button h3,
+.profile-nav a.profile-button p {
+  opacity: 0;
+  display: none;
+}
+.profile-nav a.profile-button:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.profile-nav a.profile-button:hover .profile-button-background {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: .33;
+}
+.profile-nav a.profile-button:hover .profile-button-container {
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.profile-nav a.profile-button:hover h3,
+.profile-nav a.profile-button:hover p {
+  opacity: 1;
+  display: block;
+  color: #FFF;
+}
+.profile-nav a.profile-button:hover p {
+  font-size: 18px;
+  line-height: 20px;
+}
+.profile-nav.profile-nav-sticky a.profile-button {
+  border-top: 0;
+  height: 52px;
+  border-bottom: 1px solid #CCC;
+}
+.profile-nav.profile-nav-sticky a.profile-button .profile-button-background {
+  height: 52px;
+  opacity: .2;
+}
+.profile-nav.profile-nav-sticky a.profile-button h2 {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  opacity: 1;
+}
+.profile-nav.profile-nav-sticky a.profile-button p {
+  display: none;
+}
+.profile-nav.profile-nav-sticky a.profile-button.profile-button-active .profile-button-background {
+  opacity: .5;
+}
+.profile-nav.profile-nav-sticky:hover a.profile-button {
+  height: 200px;
+}
+.profile-nav.profile-nav-sticky:hover a.profile-button .profile-button-background {
+  opacity: 1;
+}
+.profile-nav.profile-nav-sticky:hover a.profile-button p {
+  display: none;
+}
+.profile-nav.profile-nav-sticky:hover a.profile-button h2 {
+  opacity: 0;
+}
+.profile-nav.profile-nav-sticky:hover a.profile-button h3 {
+  opacity: 0;
+}

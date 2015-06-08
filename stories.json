@@ -2,13 +2,13 @@
 	"stories": [
 		{
 			"url": 		"index.html",
-			"headline": "The Flux",
+			"headline": "",
 			"deck": 	"",
 			"byline": 	"",
 			"large": 	"true",
 			"main": 	"true",
 			"background": {			
-				"url": 	"img/teaser/flux.jpg"
+				"url": 	"img/teaser/flux.png"
 			}
 		},
 		{
