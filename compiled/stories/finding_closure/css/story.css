@@ -102,10 +102,6 @@ hr {
 	margin: 1em 0;
 }
 
-img {
-	opacity: 1 !important;
-}
-
 .centerMe { margin: 0 auto; 
     animation-play-state:running;
     margin-top: -3.25em;
@@ -118,6 +114,14 @@ img {
 .pqleft {
 	text-align: right;
 }
+
+@media (min-width: 768px) {
+	blockquote {
+		padding-top: 1em;
+		margin-bottom: 1.5em;
+	}
+}
+
 .pqright {
 	text-align: left;
 }
