@@ -1,7 +1,7 @@
 {
 	"stories": [
 		{
-			"url": 		"index.html",
+			"url": 		"",
 			"headline": "",
 			"deck": 	"",
 			"byline": 	"",
@@ -12,7 +12,7 @@
 			}
 		},
 		{
-			"url": 		"stories/new_lost_tribe/index.html",
+			"url": 		"stories/new_lost_tribe/",
 			"headline": "The New Lost Tribe",
 			"deck": 	"Chicago's American Indians are working to piece together a new native community",
 			"byline": 	"",
@@ -22,7 +22,7 @@
 			}
 		},
 		{
-			"url": 		"stories/stacked_potential/index.html",
+			"url": 		"stories/stacked_potential/",
 			"headline": "Stacked Potential",
 			"deck": 	"The quest for smart pill is riddled with murky laws, lofty promises and unknown consequences.",
 			"byline": 	"",
@@ -32,7 +32,7 @@
 			}
 		},
 		{
-			"url": 		"stories/poz_perception/index.html",
+			"url": 		"stories/poz_perception/",
 			"headline": "The Poz Perception",
 			"deck": 	"HIV rates are climbing, but the perception of the once life-ending disease has changed.",
 			"byline": 	"",
@@ -42,7 +42,7 @@
 			}
 		},
 		{
-			"url": 		"stories/evolution_of_labor/index.html",
+			"url": 		"stories/evolution_of_labor/",
 			"headline": "Fight to Work",
 			"deck": 	"The faces of Illinois labor —policy-makers, activists and union workers— show the true stakes of the states’ debate over Right-to-Work laws.",
 			"byline": 	"",
@@ -52,7 +52,7 @@
 			}
 		},
 		{
-			"url": 		"stories/finding_closure/index.html",
+			"url": 		"stories/finding_closure/",
 			"headline": "Finding Closure",
 			"deck": 	"Still reeling from the foreclosure crisis, immigrants on Chicago’s Northwest Side are fighting to take housing policy into their own hands.",
 			"byline": 	"",
