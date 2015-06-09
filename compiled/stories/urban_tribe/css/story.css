@@ -106,7 +106,12 @@ margin-top: -50px;
 	font-style: italic;
 
 }
-
+@media (max-width: 600px) {
+	#deckquote p {
+		font-size: 36px;
+		line-height:38px;
+	}
+}
 
 .section-story blockquote p {
 	margin-top: 30px;
