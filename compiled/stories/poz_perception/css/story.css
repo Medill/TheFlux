@@ -12,12 +12,21 @@
 		width: 6.7em !important;
 		height: 6.7em !important;
 	}
+
+	h1 {
+		font-size: 2em !important;
+	}
+
+	p.byline {
+		font-size: 1em !important;
+	}
+
 }
 
 /* HEADER */
 
-.story-cover-content {
-	margin-bottom: 22em;
+.story-cover, .story-cover-content {
+	top: 1em;
 }
 
 .story-cover-image {
@@ -43,6 +52,15 @@ h1 {
 	font-size: 3em !important;
 }
 
+p.lead {
+	font-size: 1.5em !important;
+	line-height: 1.2 !important;
+}
+
+p.byline {
+	font-size: 1em !important;
+}
+
 p {
 	color: black;
 }
@@ -51,21 +69,41 @@ a {
 	text-decoration: none !important;
 }
 
-em {
+.narration {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	color: #868686;
+	font-style: italic;
+	margin-right: 15%;
+	margin-left: 15%;
+	line-height: 1.2;
 }
 
 /* DEFINITIONS */
-
 
 mark {
 	background-color: #caeaf7 !important;
 }
 
+mark:hover {
+	background-color: #87d0ee !important;
+	cursor: pointer;
+}
+
+span.blue-text{
+	color: #44b6e5;
+}
+
+a.blue-text {
+	color: #87d0ee !important;
+}
+
+a.blue-text:hover {
+	color: #44b6e5 !important;
+}
+
 .definition {
 	width: 40%;
-	border: 3px solid #87d0ee;
+	border: 3px solid #44b6e5;
 	margin: 0 -50% 0 2em;
 	float: right;
 	display: none;
@@ -74,11 +112,29 @@ mark {
 .definition p{
 	font-family: "Source Sans Pro", Helvetica, sans-serif !important;
 	color: #868686;
-	font-size: 0.9em;
-	font-weight: 300;
 	padding: 0.7em;
-	line-height: 1.5em;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	font-weight: 400;
+	font-style: italic;
 	margin: 0;
+}
+
+.definition-mob {
+	font-family: "Source Sans Pro", Helvetica, sans-serif !important;
+	color: #868686;
+	line-height: 1.2em;
+	font-size: 0.9em;
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+	font-style: italic;
+	display: none;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+#push-down {
+	margin-bottom: 10em !important;
 }
 
 /* NAVIGATION */
@@ -103,8 +159,8 @@ mark {
 }
 
 .poz-nav-btn {
-	width: 9.5em;
-	height: 9.5em;
+	width: 12em;
+	height: 12em;
 	display:inline-block;
 	margin: 0.25em;
 	opacity: 0.6;
@@ -134,7 +190,8 @@ img.img-show {
 }
 
 #header-photo {
-	width: 58.75em;
+	width: 63.75em;
+	image-rendering: crisp-edges !important;
 }
 
 /* END NAVIGATION */
@@ -144,14 +201,3 @@ img.img-show {
 	color: #868686;
 	text-align: center;
 }
-
-/*
-@media screen and (max-width: 625px) {
-	.definition {
-		width: 35%;
-		border: 3px solid #9dd9f1;
-		margin: 0 -15% 0 2em;
-	}
-}
-*/
-

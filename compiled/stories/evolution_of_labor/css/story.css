@@ -39,6 +39,7 @@
 	font-family:'Source Sans Pro', sans-serif;
 	font-size:10pt;
 	font-weight:300;
+	color: blue;
 }
 
 blockquote {
@@ -175,4 +176,8 @@ center > .lead {
 	margin-bottom: 5;
 	text-align: center;
 }
-
+.end-line {
+	margin-left: -3em;
+	width: 115%;
+	display: block;
+}

@@ -1,5 +1,10 @@
-.gif{
-	margin: auto;
+
+.imgheader {
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px; 
+	margin-top:200px;
 }
 
 .bodytext p {
@@ -7,9 +12,13 @@ font-size: 10px
 
 }
 
-p {
-	color: #333333   ;
-	font-size: 15px;
+.section-story {
+	/*margin-top:200px;*/
+
+}
+
+.section-story p.lead{
+	text-align:left;
 }
 
 #profile {
@@ -27,67 +36,155 @@ p {
 	margin-bottom: 25px;
 }
 
-#tile {
+#tile2 {
+	margin-top: 20px; 
 	opacity: 1;
 	text-align: center;
 	width: 100%;
-	margin-bottom: 25px;
+	margin-bottom: 70px; }
+
+.head {
+	font-family: "Source Sans Pro"; 
+	font-size: 70px; 
+	color: #6887BD; 
+	font-weight: 200; 
+	margin-top: -25px;
+	margin-bottom: 0px;
 }
+
+.byline {
+	font-family: "Source Sans Pro";
+	font-size: 12px;
+	margin-top: -0px;
+	margin-bottom: 0px;
+}
+
+#figcaption {
+	text-align: center
+}
+
+
 
 .lead {
 	text-align: center;
 
 }
 
-#deckquote {
+.deck {
 
-text-align: center;
-
+	text-align: center;
+	font-family: "Libre Baskerville";
+	font-size: 25px; 
+	line-height: 40px; 
+	margin-bottom: 100px; 
 }
+
+
 
 #deckquote p {
 
+text-align: center;
+margin-top: -50px;
+	font-family: "Source Sans Pro"; 
+	font-weight: 200; 
 	text-align: center;
-	width: 100%;
-	margin-bottom: 25px;
-	font-style: italic;
-	color: #3CB371  ;
-	font-size: 45px;
+	color: #3CB371;  
+	font-size: 50px;
 	line-height: 120%;
-}
-
-#profilequote blockquote {
-	margin-top: 30px;
-	width: 100%;
-	text-align: right;
+	margin-bottom:35px;
 	font-style: italic;
-	margin-bottom: 25px;
-	color: #3CB371  ;
-	font-size: 20px;
-	line-height: 120%;
 
 }
 
-#profilequote p {
+
+.section-story blockquote p {
 	margin-top: 30px;
-	width: 100%;
+	font-family: "Source Sans Pro"; 
+	font-weight: 200; 
 	text-align: right;
 	font-style: italic;
 	margin-bottom: 25px;
-	color: #3CB371  ;
-	font-size: 30px;
+	color: #990000; 
+	font-size: 35px;
 	line-height: 120%;
+	margin-bottom:0;
+
+}
+/*blockquote p:after {
+	display:none;
+}
+
+*/
+.section-story blockquote p:before {
+	font-size:72px;
+	font-weight:900;
+	line-height:0px;
+	bottom:-15px;
+	margin-right:5px;
+	display:inline-block;
+	position:relative;
+
+}
+
+#profilequotecarlos p {
+
+	color: #990000; 
 
  }
 
+#profilequotecarlos p:before, #profilequotecarlos p:after{
+
+	color: #990000;  
+
+ }
+
+ #profilequotemelanie p {
+
+	color: #663399;  
+
+ }
+
+  #profilequotemelanie p:before, #profilequotemelanie p:after{
+
+	color: #663399;  
+
+ }
+
+ #profilequotepatrick p {
+
+	color: #0099FF;  
+
+ }
+
+ #profilequotepatrick p:before, #profilequotepatrick p:after{
+
+	color: #0099FF;  
+
+ }
+
+#profilequotejody p {
+
+	color: #CC3300; 
+
+ }
+
+  #profilequotejody p:before, #profilequotejody p:after{
+
+	color: #CC3300;  
+
+ }
+
+
+
  #profilefact p {
 	margin-top: 30px;
-	width: 100%;
-	text-align: right;
+	font-family: "Source Sans Pro"; 
+	font-weight: 200; 
+	text-align: left;
 	font-style: italic;
 	margin-bottom: 25px;
-	color: #3CB371  ;
-	font-size: 30px;
+	color: #808080;
+	font-size: 35px;
 	line-height: 120%;
 }
 
@@ -99,6 +196,15 @@ text-align: center;
 	margin-bottom: 25px;
 
  }
+
+margin-top: 30px;
+	width: 100%;
+	text-align: right;
+	font-style: italic;
+	margin-bottom: 25px;
+	color: #3CB371  ;
+	font-size: 30px;
+	line-height: 120%;
 
 
 .stop { width: 1000}
@@ -185,4 +291,7 @@ text-align: center;
 }
 .profile-nav.profile-nav-sticky:hover a.profile-button h3 {
   opacity: 0;
+
+
+
 }
