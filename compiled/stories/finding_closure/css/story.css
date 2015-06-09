@@ -14,11 +14,6 @@ header.navigation #navbar-product.no-cover li a {
 header.in-article #navbar-product.no-cover #navbar-title {
   display: block;
 }
-@media (max-width: 767px) {
-	header.in-article #navbar-product.no-cover #navbar-title {
-	  display: none;
-	}
-}
 #story-cover-override {
 	height: 60vh;
 }
@@ -143,3 +138,6 @@ article > section .row:first-of-type p:first-of-type:first-letter {
 	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif; 
 }
 
+#houses object {
+	width: 100%;
+}
