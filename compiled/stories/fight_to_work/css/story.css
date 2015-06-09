@@ -2,6 +2,51 @@
 	max-width:100%;
 	max-height:auto;
 }
+.profile-nav a.profile-button h2 {
+
+  font-size: 24px;
+  line-height: 24px;
+	 word-break: keep-all ;
+}
+
+.profile-nav a.profile-button p {
+	line-height:18px;
+
+}
+.profile-nav a.profile-button, .profile-nav a.profile-button .profile-button-background {
+	height:250px;
+}
+@media (max-width: 600px) {
+	.profile-nav a.profile-button h2 {
+
+	    font-size: 24px;
+	    line-height: 24px;
+
+	}
+	.profile-nav a.profile-button p {
+		
+
+	}
+	.profile-nav a.profile-button, .profile-nav a.profile-button .profile-button-background {
+		height:150px!important;
+	}
+}
+@media (max-width: 700px) {
+	.profile-nav a.profile-button h2 {
+
+	  font-size: 16px;
+	  line-height: 16px;
+
+	}
+	.profile-nav a.profile-button, .profile-nav a.profile-button .profile-button-background {
+		height:300px;
+	}
+	.profile-nav a.profile-button p {
+		
+
+	}
+}
+
 
 #story-cover > .story-cover-content > h1 {
 	color:#990000;

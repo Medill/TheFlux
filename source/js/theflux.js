@@ -555,7 +555,7 @@ $(document).ready(function(){
 		profile_array = $( ".profile-nav .profile-item" ).toArray();
 		var profile_width = 100/profile_array.length;
 		
-		if (browser.mobile || window.innerWidth < 500) {
+		if (browser.mobile || window.innerWidth < 600) {
 			profile_width = 100;
 		} else if (window.innerWidth < 1000 && profile_array.length > 4) {
 			profile_width = 33.3;
