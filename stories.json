@@ -1,7 +1,7 @@
 {
 	"stories": [
 		{
-			"url": 		"",
+			"url": 		"index.html",
 			"headline": "",
 			"deck": 	"",
 			"byline": 	"",
@@ -12,8 +12,8 @@
 			}
 		},
 		{
-			"url": 		"stories/new_lost_tribe/",
-			"headline": "The New Lost Tribe",
+			"url": 		"stories/urban_tribe/",
+			"headline": "Assembling an Urban Tribe",
 			"deck": 	"Chicago's American Indians are working to piece together a new native community",
 			"byline": 	"",
 			"large": 	"true",
@@ -42,9 +42,9 @@
 			}
 		},
 		{
-			"url": 		"stories/evolution_of_labor/",
+			"url": 		"stories/fight_to_work/",
 			"headline": "Fight to Work",
-			"deck": 	"The faces of Illinois labor —policy-makers, activists and union workers— show the true stakes of the states’ debate over Right-to-Work laws.",
+			"deck": 	"The faces of Illinois labor —policymakers, activists and union workers— show the true stakes of the debate over right-to-work laws.",
 			"byline": 	"",
 			"large": 	"true",
 			"background": {			

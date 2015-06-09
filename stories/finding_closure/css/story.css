@@ -14,6 +14,11 @@ header.navigation #navbar-product.no-cover li a {
 header.in-article #navbar-product.no-cover #navbar-title {
   display: block;
 }
+@media (max-width: 767px) {
+	header.in-article #navbar-product.no-cover #navbar-title {
+	  display: none;
+	}
+}
 #story-cover-override {
 	height: 60vh;
 }

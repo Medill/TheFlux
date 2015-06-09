@@ -6,7 +6,9 @@
     background-position: left;
     color: #000;
 }
-
+header.navigation #navbar-product #stories-btn {
+  color: #333 !important;
+}
 .headline-row {
     transform: rotateZ(-3deg);
     margin-bottom: 30px;

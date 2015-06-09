@@ -1,4 +1,22 @@
+.story-cover .story-cover-content h1 {
+  font-size: 65px;
+  line-height: 66px;
+  color: #fff;
+  text-shadow: 1px 1px 7px rgba(0,0,0,.9);
+  display: block;
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 5px;
+  font-weight: 200;
+  color: #6887BD; 
+  margin-bottom:10px;
 
+}
+.story-cover .story-cover-content {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
 .imgheader {
 
 	margin-left: auto;
@@ -43,14 +61,7 @@ font-size: 10px
 	width: 100%;
 	margin-bottom: 70px; }
 
-.head {
-	font-family: "Source Sans Pro"; 
-	font-size: 70px; 
-	color: #6887BD; 
-	font-weight: 200; 
-	margin-top: -25px;
-	margin-bottom: 0px;
-}
+
 
 .byline {
 	font-family: "Source Sans Pro";
@@ -95,7 +106,12 @@ margin-top: -50px;
 	font-style: italic;
 
 }
-
+@media (max-width: 600px) {
+	#deckquote p {
+		font-size: 36px;
+		line-height:38px;
+	}
+}
 
 .section-story blockquote p {
 	margin-top: 30px;
