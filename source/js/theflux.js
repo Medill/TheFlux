@@ -41,6 +41,7 @@ $(document).ready(function(){
 		_has_story_cover = false,
 		_story_cover_height = 100,
 		_path = "",
+		_nav_bar_black = false,
 		_is_index = false,
 		profile_array = [],
 		logo_timer = {};
@@ -51,6 +52,9 @@ $(document).ready(function(){
 	}
 	if (typeof is_index != "undefined") {
 		_is_index = is_index;
+	}
+	if (typeof nav_bar_black != "undefined") {
+		_nav_bar_black = path;
 	}
 
 	// TITLE
@@ -258,7 +262,7 @@ $(document).ready(function(){
 				}
 				//$('img.knightlab-logo').attr('src', '../css/kngihtlab-logo-NOtagline.png');
 				//$('.knightlab-logo img').attr('src', '../css/knightlab-logo-diamond-190.png');
-				if (nav_bar_black) {
+				if (_nav_bar_black) {
 					$('.logo-white').css('display', 'none');
 					$('.logo-black').css('display', 'inline');
 				} else {
