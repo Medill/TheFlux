@@ -233,39 +233,7 @@ $(document).ready(function(){
 			animate_props.opacity = "1";
 			animate_props.marginTop = "-56px";
 		}
-		
-		/*
-		$("#navbar").animate(animate_props, _speed/2, "easeInOutCubic", function() {
-			
-			if (in_article) {
-				$('#product-navbar-collapse').css('opacity', '1');
-				//$('.knightlab-logo img').attr('src', '../css/knightlab-logo-diamond-190.png');
-				$('#navbar').addClass('in-article');
-				$('#navbar').css('marginTop', '-56px');
-				$("#navbar").animate({
-					marginTop:"0px",
-					opacity:"1"
-				}, _speed, "easeInOutCubic");
-			} else {
-				if (_is_index) {
-					$('#product-navbar-collapse').css('opacity', '0');
-				} else {
-					$('#product-navbar-collapse').css('opacity', '1');
-				}
-				//$('img.knightlab-logo').attr('src', '../css/kngihtlab-logo-NOtagline.png');
-				//$('.knightlab-logo img').attr('src', '../css/knightlab-logo-diamond-190.png');
-				$('#navbar').removeClass('in-article');
-				$('#navbar').css('opacity', '0');
-				$('#navbar').css('marginTop', '0');
-				$("#navbar").animate({
-					opacity:"1"
-				}, _speed*2, "easeInOutCubic");
-			}
-			
 
-  
-		});
-		*/
 		$("#navbar-product").animate(animate_props, _speed/2, "easeInOutCubic", function() {
 			
 			if (in_article) {
@@ -290,8 +258,14 @@ $(document).ready(function(){
 				}
 				//$('img.knightlab-logo').attr('src', '../css/kngihtlab-logo-NOtagline.png');
 				//$('.knightlab-logo img').attr('src', '../css/knightlab-logo-diamond-190.png');
-				$('.logo-white').css('display', 'inline');
-				$('.logo-black').css('display', 'none');
+				if (nav_bar_black) {
+					$('.logo-white').css('display', 'none');
+					$('.logo-black').css('display', 'inline');
+				} else {
+					$('.logo-white').css('display', 'inline');
+					$('.logo-black').css('display', 'none');
+				}
+				
 				
 				$('.navbar-brand img').css('width', '');
 				$('.navbar-brand img').css('height', '');
