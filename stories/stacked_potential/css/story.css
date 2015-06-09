@@ -1,5 +1,5 @@
-.story-cover {
-    background-image: url('../img/_MG_5229.jpg');
+#story-cover {
+    background-image: url('../img/mg_5229.jpg');
     background-repeat: no-repeat;
     background-color: #fff;
     background-size: cover;
@@ -9,6 +9,7 @@
 
 .headline-row {
     transform: rotateZ(-3deg);
+    margin-bottom: 30px;
 }
 
 .headline {
@@ -37,12 +38,20 @@
     box-shadow: 10px 0 0 #e2ff42, -10px 0 0 #e2ff42;
     padding-top: 5px;
     padding-bottom: 5px;
+    line-height: 1.6em;
+    text-shadow: none;
+    font-size: .8em;
 }
 
 .byline-container {
     margin-left: 10px;
+    transform: rotateZ(-3deg);
+}
+
+.lead-container {
     margin-top: 30px;
     transform: rotateZ(-3deg);
+    margin-bottom: 3px;
 }
 
 .story-cover .story-cover-content p.lead {
@@ -54,15 +63,14 @@
     padding-bottom: 5px;
     box-shadow: 10px 0 0 #e2ff42, -10px 0 0 #e2ff42;
     text-shadow: none;
-}
-
-.byline {
-    text-shadow: none;
-    line-height: 1.4em;
+    font-size: 1.5em;
+    line-height: 1.45em;
+    margin-left: 10px;
 }
 
 .lead-container {
     margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 div.story-deck {}
@@ -86,6 +94,10 @@ div.story-deck {}
     font-family: "Roboto Condensed", sans-serif;
     color: #000;
     margin-bottom: 10px;
+}
+
+.italic {
+    font-style: italic;   
 }
 
 article h3 {
@@ -129,28 +141,28 @@ img {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     height: 500px;
-    background-size: cover;
+    background-size: cover;    
 }
 
 .noo-what {
-    background-image: url('../img/_MG_5258.jpg');
+    background-image: url('../img/mg_5258.jpg');
 }
 
 .the-search {
-    background-image: url('../img/_MG_5293.jpg');   
+    background-image: url('../img/mg_5293.jpg');
 }
 
 .regulation {
-    background-image: url('../img/_MG_5250.jpg');  
+    background-image: url('../img/mg_5250.jpg');
 }
 
 .cure-all {
-    background-image: url('../img/_MG_5238.jpg');   
+    background-image: url('../img/mg_5238.jpg');
     background-position: bottom;
 }
 
 .uncertain-future {
-    background-image: url('../img/_MG_5252.jpg');  
+    background-image: url('../img/mg_5252.jpg');
 }
 
 figure {
@@ -181,7 +193,7 @@ blockquote cite {}
 
 .subhead {
     font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 7em;
+    font-size: 5em;
     color: #000;
     line-height: 1.5em;
     margin-top: 70px;
@@ -227,13 +239,16 @@ blockquote cite {}
     .subhead {
         top: 0px;
     }
+    .headline {
+        font-size: 5em;
+    }
 }
 
 @media (max-width: 600px) {
     .headline {
         font-size: 4em;
     }
-    .byline {
+    #story-cover .story-cover-content .byline-container .byline {
         line-height: 1.6em;
     }
     .after-image {
@@ -250,5 +265,11 @@ blockquote cite {}
     }
     .drop-cap-container {
         right: -40px;
+    }
+}
+
+@media (max-width: 492px) {
+    #story-cover .story-cover-content .byline-container .byline {
+        line-height: 1.6em;
     }
 }
