@@ -17,7 +17,11 @@ header.in-article #navbar-product.no-cover #navbar-title {
 #story-cover-override {
 	height: 60vh;
 }
-
+@media (max-width: 767px) {
+	header.in-article #navbar-product.no-cover #navbar-title {
+	  display: none;
+	}
+}
 .story-cover-image {
 	width: 100%;
 	height: 100%;
