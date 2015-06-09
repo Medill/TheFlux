@@ -9,8 +9,8 @@
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/README.html",
@@ -50,9 +50,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/example.jade",
-		"outputAbbreviatedPath": "\/compiled\/example.html",
+		"outputAbbreviatedPath": "\/source\/jade\/example.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/includes\/ascii.jade": {
@@ -94,9 +94,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/index.jade",
-		"outputAbbreviatedPath": "\/compiled\/index.html",
+		"outputAbbreviatedPath": "\/source\/jade\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/logo_demo.jade": {
@@ -105,9 +105,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/logo_demo.jade",
-		"outputAbbreviatedPath": "\/compiled\/logo_demo.html",
+		"outputAbbreviatedPath": "\/source\/jade\/logo_demo.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/stories\/profile_example.jade": {
@@ -116,9 +116,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/stories\/profile_example.jade",
-		"outputAbbreviatedPath": "\/compiled\/stories\/story_template\/profile_example.html",
+		"outputAbbreviatedPath": "\/source\/jade\/stories\/profile_example.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/stories\/story.jade": {
@@ -127,9 +127,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/stories\/story.jade",
-		"outputAbbreviatedPath": "\/compiled\/stories\/story_template\/story.html",
+		"outputAbbreviatedPath": "\/source\/jade\/stories\/story.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/stories\/video_cover_example.jade": {
@@ -138,9 +138,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/stories\/video_cover_example.jade",
-		"outputAbbreviatedPath": "\/compiled\/stories\/story_template\/video_cover_example.html",
+		"outputAbbreviatedPath": "\/source\/jade\/stories\/video_cover_example.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/typography.jade": {
@@ -149,9 +149,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/typography.jade",
-		"outputAbbreviatedPath": "\/compiled\/typography.html",
+		"outputAbbreviatedPath": "\/source\/jade\/typography.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/typography_option_01.jade": {
@@ -160,9 +160,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/typography_option_01.jade",
-		"outputAbbreviatedPath": "\/compiled\/typography_option_01.html",
+		"outputAbbreviatedPath": "\/source\/jade\/typography_option_01.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/typography_option_02.jade": {
@@ -171,9 +171,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/typography_option_02.jade",
-		"outputAbbreviatedPath": "\/compiled\/typography_option_02.html",
+		"outputAbbreviatedPath": "\/source\/jade\/typography_option_02.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/typography_option_03.jade": {
@@ -182,9 +182,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/typography_option_03.jade",
-		"outputAbbreviatedPath": "\/compiled\/typography_option_03.html",
+		"outputAbbreviatedPath": "\/source\/jade\/typography_option_03.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/jade\/walkthru.jade": {
@@ -193,9 +193,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/walkthru.jade",
-		"outputAbbreviatedPath": "\/compiled\/walkthru.html",
+		"outputAbbreviatedPath": "\/source\/jade\/walkthru.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/source\/js\/Library\/bootstrap\/affix.js": {
@@ -423,11 +423,11 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/js\/theflux.js",
-		"outputAbbreviatedPath": "\/compiled\/js\/theflux.js",
+		"outputAbbreviatedPath": "\/source\/js\/min\/theflux-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/source\/less\/bootstrap\/alerts.less": {
 		"allowInsecureImports": 0,
@@ -2196,11 +2196,11 @@
 		"fileType": 1,
 		"ieCompatibility": 1,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/less\/custom\/profile-nav.less",
-		"outputAbbreviatedPath": "\/profile-nav.css",
+		"outputAbbreviatedPath": "\/source\/less\/css\/profile-nav.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
@@ -2358,9 +2358,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/less\/theflux-index.less",
-		"outputAbbreviatedPath": "\/compiled\/css\/theflux-index.css",
+		"outputAbbreviatedPath": "\/source\/css\/theflux-index.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
@@ -2378,10 +2378,10 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/less\/theflux.less",
-		"outputAbbreviatedPath": "\/compiled\/css\/theflux.css",
+		"outputAbbreviatedPath": "\/source\/css\/theflux.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
