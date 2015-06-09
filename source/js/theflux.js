@@ -174,6 +174,7 @@ $(document).ready(function(){
 					if ($("#video-cover").length == 0) {
 						
 					} else{
+						$("#video-cover").css("display", "block")
 						var vid = document.getElementById("video-cover");
 						vid.play();
 					}
@@ -186,6 +187,7 @@ $(document).ready(function(){
 					} else{
 						var vid = document.getElementById("video-cover");
 						vid.pause();
+						$("#video-cover").css("display", "none")
 					}
 				}
 			 
